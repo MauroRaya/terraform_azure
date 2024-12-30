@@ -1,0 +1,19 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Exclude all .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Ignore the entire .terraform directory
+.terraform/
+
+# Exclude Terraform plan files
+plan*
